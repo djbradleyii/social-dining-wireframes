@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <title>Sign up form</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Header</h1>
+        <nav role="navigation">
+            Nav
+        </nav>
+    </header>
+    <main>
+        <form role="form">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="Ken" name="fname" />
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Adams" name="lname" />
+            </div>
+            <div>
+                <label for="dob">Birth Date:</label>
+                <input type="date" id="dob" />
+            </div>
+            <div>
+                <fieldset class="radiogroup">
+                    <legend>Gender</legend>
+                    <ul class="radio">
+                        <li><input type="radio" name="gender" id="male" value="male" /><label for="male">Male</label></li>
+                        <li><input type="radio" name="gender" id="female" value="female" /><label for="female">Female</label></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div>
+                <label for="status">Status:</label>
+                <select>
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Divorced</option>
+                    <option>Separated</option>
+                    <option>Life Partner</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="myemailaddress@email.com"/>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" />
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>    
+        </form>
+    </main>
+    <footer role="contentinfo">
+        Footer
+    </footer>
+</body>
+</html>
